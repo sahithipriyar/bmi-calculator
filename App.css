@@ -1,0 +1,29 @@
+.app-container {
+  border: 1px solid blue;
+  margin: 0 auto;
+  width: 30%;
+  padding: 2rem;
+}
+
+.age,
+.age-inp {
+  margin-right: 2rem;
+}
+
+input[type="number"]:-moz-placeholder {
+  text-align: right;
+}
+input[type="number"]:-ms-input-placeholder {
+  text-align: right;
+}
+input[type="number"]::-webkit-input-placeholder {
+  text-align: right;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.parats {
+  color: red;
+}
